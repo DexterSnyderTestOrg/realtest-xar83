@@ -296,15 +296,6 @@ void gitCommit()
 	std::string email = "Default@Default.com";
 	std::string emailCmd = "git config user.email \"" + email + "\"";
 
-	//set up the default username and password
-//#ifdef unix || __unix__ || __unix || __linux__
-//	
-//#elif _WIN32 || _WIN64 || __CYGWIN__
-//	
-//#elif __APPLE__ || __MACH__
-//
-//#endif
-
 	//run commmands on the cmd line
 	system("git add -A");
 
