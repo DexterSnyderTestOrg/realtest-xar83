@@ -306,7 +306,6 @@ void gitCommit()
 	system(commitCommand.c_str());
 
 	//clean up - throws an exception when timeinfo is deleted
-	//delete timeinfo;
 }
 
 int main() {
