@@ -82,7 +82,7 @@ CourseStack<T>::~CourseStack()
 template <typename T>
 void CourseStack<T>::Push(const T& value) {
 	if (index >= capacity) {
-		cout << "Error- Stack size exceeded." << endl;
+		std::cout << "Error- Stack size exceeded." << std::endl;
 		throw 1;
 	}
 	arr[index] = value;
